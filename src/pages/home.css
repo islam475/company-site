@@ -1,0 +1,59 @@
+.container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-home{
+    width: 200px;
+    height: 50px;
+    
+}
+.hero p{
+    color: var(--gray);
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.upper{
+    display: flex;
+    gap: 20px;
+   
+
+}
+
+.upper div {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    width: 200px;
+}
+
+
+.lower{
+    display: flex;
+    gap: 20px;
+
+}
+
+.lower div {
+    padding: 20px;
+    background-color: rgb(76, 166, 250);
+    border-radius: 20px;
+    width: 200px;
+}

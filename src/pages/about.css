@@ -1,0 +1,12 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    border-top: 1px solid var(--border);
+}
+.lower-about{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
