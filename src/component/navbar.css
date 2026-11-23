@@ -35,3 +35,10 @@
     color: var(--blue);
     border-radius: 2px;
 }
+
+
+.container-nav ul li a.active {
+    color: var(--blue);
+    font-weight: bold;
+    border-bottom: 2px solid var(--blue);
+}
